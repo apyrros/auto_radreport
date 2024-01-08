@@ -16,7 +16,7 @@ pip install -r requirements.txt
 'curl https://ollama.ai/install.sh | sh'
 'ollama run mistral'
 
-#Install tesseract
+# Install tesseract
 'sudo apt-get install tesseract-ocr-[langcode]'
 'brew install tesseract'
 
