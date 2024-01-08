@@ -11,7 +11,7 @@ git clone https://github.com/apyrros/auto_radreport
 pip install -r requirements.txt
 
 # Usage
-# pyhton api_server.py
+# python api_server.py
 The api_server.py script utilizes the Flask web framework to run a lightweight server capable of handling API calls. It's designed to listen for requests, process them according to the defined routes and methods, and return responses. This server is integral for operations such as retrieving and processing DICOM images, facilitating the core functionalities of the Auto RadReport project. Flask's simplicity and flexibility make it an ideal choice for this script, ensuring quick setup and easy handling of web requests.
 
 # download.py
