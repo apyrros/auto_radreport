@@ -1,5 +1,5 @@
 # auto_radreport
-This is a simple example of how to use Tesseract, Ollama, and Mistrial to convert screenshot images in ultrasound into a useful report. This project demonstrates the process of extracting text from images using OCR (Optical Character Recognition) with Tesseract, processing the data with Ollama, and then formatting it into a report with Mistrial.
+This is a simple example of how to use Tesseract, Ollama, and Mistral to convert screenshot images in ultrasound into a useful report. This project demonstrates the process of extracting text from images using OCR (Optical Character Recognition) with Tesseract, processing the data with Ollama, and then formatting it into a report with Mistral.
 
 Installation
 Clone this repository and install the necessary dependencies to get started with Auto RadReport.
@@ -12,10 +12,12 @@ pip install -r requirements.txt
 
 # Install ollama (https://ollama.ai/)
 'curl https://ollama.ai/install.sh | sh'
+
 'ollama run mistral'
 
 # Install tesseract
 'sudo apt-get install tesseract-ocr-[langcode]'
+
 'brew install tesseract'
 
 # Usage
