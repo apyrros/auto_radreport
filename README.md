@@ -27,7 +27,7 @@ Copy code
 The requeststudy-ps360.ahk script is a specialized tool designed to interface with PowerScribe 360. Its primary function is to automate the workflow as follows:
 Search Accession Number: The script searches the PowerScribe 360 sidebar for a specific accession number. This number is typically used to identify a particular medical imaging study in the DICOM standard.
 Sending Information: Once the accession number is located, requeststudy-ps360.ahk sends it to the server, effectively initiating the process of retrieving and processing the associated DICOM images.
-This script streamlines the initial step in the imaging study retrieval process, ensuring a smooth transition from identifying the study in PowerScribe 360 to processing it on the server. The script is started by pressing F1. You w ill need to download autohotkey v1.1 (https://www.autohotkey.com/download/).
+This script streamlines the initial step in the imaging study retrieval process, ensuring a smooth transition from identifying the study in PowerScribe 360 to processing it on the server. The script is started by pressing F1. You will need to download autohotkey v1.1 (https://www.autohotkey.com/download/).
 
 
 # License
