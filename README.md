@@ -26,12 +26,10 @@ The api_server.py script utilizes the Flask web framework to run a lightweight s
 
 # download.py
 The download.py script is designed to automate the process of handling DICOM screen captures from a DICOM server. Here's how it works:
-Downloading DICOM Images: Initially, it connects to a specified DICOM server to download screen capture images.
+Downloading DICOM Images: Initially, it connects to a specified DICOM server to download screen capture images. The SOP id is used to specify the ID.
 Image to Text Conversion: Once the images are downloaded, the script utilizes Tesseract OCR (Optical Character Recognition) and the Python Imaging Library (PIL) to convert the image data into text. Tesseract is a powerful OCR engine that reads the text embedded in images, while PIL provides image processing capabilities.
 Text Processing: After the text is extracted, it's passed to Oollama for further processing. Oollama processes the text based on a simple prompt, structuring or interpreting the information as needed.
 Output: The final processed text is then printed out or can be directed to a file or another system for further use.
-bash
-Copy code
 
 # requeststudy-ps360.ahk
 The requeststudy-ps360.ahk script is a specialized tool designed to interface with PowerScribe 360. Its primary function is to automate the workflow as follows:
